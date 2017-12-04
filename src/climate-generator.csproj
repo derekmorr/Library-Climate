@@ -14,8 +14,8 @@
     <Reference Include="Edu.Wisc.Forest.Flel.Util">
       <HintPath>..\lib\Edu.Wisc.Forest.Flel.Util.dll</HintPath>
     </Reference>
-    <ProjectReference Include="../../landis-core-model/model/core/src/Core.csproj" />
-    <ProjectReference Include="../../Library-Spatial/src/api/Landis_SpatialModeling.csproj" />
-    <ProjectReference Include="../../Library-Metadata/src/Metadata.csproj" />
+    <PackageReference Include="Landis.Core" Version="1.0.0-CI00001" />
+    <PackageReference Include="Landis.SpatialModeling" Version="1.0.0-CI00001" />
+    <PackageReference Include="Landis.Library.Metadata" Version="1.0.0-CI00001" />
   </ItemGroup>
 </Project>
