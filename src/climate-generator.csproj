@@ -8,7 +8,7 @@
     <AssemblyCopyright>Copyright © Portland State University 2013"</AssemblyCopyright>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
     <AssemblyFileVersion>3.0.0.0</AssemblyFileVersion>
-    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <TargetFramework>netstandard2.0</TargetFramework>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Edu.Wisc.Forest.Flel.Util">
@@ -16,6 +16,6 @@
     </Reference>
     <PackageReference Include="Landis.Core" Version="1.0.0-CI00001" />
     <PackageReference Include="Landis.SpatialModeling" Version="1.0.0-CI00001" />
-    <PackageReference Include="Landis.Library.Metadata" Version="1.0.0-CI00001" />
+    <PackageReference Include="Landis.Library.Metadata" Version="1.0.0-CI00002" />
   </ItemGroup>
 </Project>
